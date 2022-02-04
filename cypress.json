@@ -1,0 +1,11 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "ingnoreTestFile":["*.js"],
+    "defaultCommandTimeout":6000,
+    "screenshotsFolder":"TestResults/assets",
+    "reporter":"cypress-multi-reporters",
+    "reporterOptions":{
+        "configFile":"reporter-config.json"
+    }
+
+}
